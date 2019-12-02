@@ -1,4 +1,4 @@
-# Fainer_Noah_iteractiveSVG
+# Fainer_Noah_interactiveSVG
 
 dependencies:
 
