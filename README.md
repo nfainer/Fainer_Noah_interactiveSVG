@@ -1,4 +1,4 @@
-# fainer_noah_poster
+# Fainer_Noah_iteractiveSVG
 
 dependencies:
 
