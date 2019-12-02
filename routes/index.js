@@ -12,7 +12,7 @@ router.get('/', (req, res) => {
     sql.query(query, (err, result) => {
         if (err) { throw err; console.log(err); }
 
-        console.log(result); // should see objects wrapped in an array
+        // console.log(result); // should see objects wrapped in an array
 
         // render the home view with dynamic data
 

@@ -1,1 +1,108 @@
-<svg id="runaway_greenhouse" data-name="runaway greenhouse" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 152 152"><defs><style>.cls-1,.cls-9{fill:none;}.cls-2{clip-path:url(#clip-path);}.cls-3{fill:#1381e5;}.cls-4{fill:#3ab730;}.cls-5{fill:#ff0b0b;opacity:0.78;}.cls-6{fill:#ccc4c4;}.cls-6,.cls-7{opacity:0.4;}.cls-7{fill:#a39d9d;}.cls-8{fill:#232222;}.cls-9{stroke:#fff8f8;stroke-miterlimit:10;stroke-width:12px;}</style><clipPath id="clip-path" transform="translate(-428 -2522)"><circle class="cls-1" cx="502.48" cy="2598" r="42.73"/></clipPath></defs><title>redPlanet</title><g class="cls-2"><circle class="cls-3" cx="74.48" cy="76" r="42.73"/><path class="cls-4" d="M484,2588.7a5,5,0,0,1,2.61-2.66c8.66-3.72,24-6.78,31,.69,5.36,5.72,3.36,19.3-7.74,19.28a1.49,1.49,0,0,0-1.49,1.73c1.26,7.35,3.85,16.17-1.45,21.76-7.95,8.41-13.56,3.17-16.21-5.3-1.91-6.11,4.26-12.82,2.51-19.23C490.88,2596.48,479.05,2600.6,484,2588.7Z" transform="translate(-428 -2522)"/><path class="cls-4" d="M524.77,2563.63c-2.92,12.95-19.11,1.48-22.29,11.15-3.39,10.29,17.95,11.94,23.13,11.14C552.82,2581.74,534.08,2554.23,524.77,2563.63Z" transform="translate(-428 -2522)"/><path class="cls-4" d="M469.69,2570.61c20.27,1.94-1.69,18.45-3.43,23.21-6.15,16.76,11.66,24.68,11.14,38.77-40.86,1.9-22.25-44-12.07-64.31Z" transform="translate(-428 -2522)"/></g><circle id="transition" class="cls-5" cx="74.48" cy="76" r="42.73"/><path class="cls-6" d="M542,2598c1.23,18.3-10.69,33.42-20.33,33.42s4.48-13.71,4.5-32.05c0-28.33-30.5-39.94-20.86-39.94S539.64,2563.63,542,2598Z" transform="translate(-428 -2522)"/><path class="cls-7" d="M465.61,2585.27c-6.11,17.29-1.05,35.07,8,38.27s.32-14.42,6.43-31.71,24.76-27.71,15.67-30.91S471.71,2568,465.61,2585.27Z" transform="translate(-428 -2522)"/><path class="cls-7" d="M492.44,2635.76c7,1.55,15.12-7.61,17.2-17s-6.23,3.23-13.26,1.67-10.14-16.71-12.21-7.3S485.41,2634.21,492.44,2635.76Z" transform="translate(-428 -2522)"/><path class="cls-7" d="M499.84,2571.38c9.5-2.1,19.62,6.62,21.69,16s-8.07-2.82-17.57-.72-14.75,17.73-16.83,8.32S490.34,2573.48,499.84,2571.38Z" transform="translate(-428 -2522)"/><path class="cls-7" d="M503.94,2591.59c7-1.55,14.26,3.7,15.56,9.59s-3.23,8.09-10.26,9.65-13.92,1.86-15.22-4S496.9,2593.15,503.94,2591.59Z" transform="translate(-428 -2522)"/><path class="cls-8" d="M551.13,2596.52a61.21,61.21,0,0,0-13.58-1.31,66.68,66.68,0,0,0-12.3,1c-1.13-.06-2.3-.09-3.49-.09a60.67,60.67,0,0,0-8.47.56,58.48,58.48,0,0,0-14.29-1.49c-7,0-13,.83-15.94,2-3.15-1.77-8.77-3-15.18-3-9.87,0-17.88,2.81-17.88,6.27s8,6.27,17.88,6.27c6.1,0,11.48-1.07,14.71-2.7a61.47,61.47,0,0,0,13.62,1.31,62.17,62.17,0,0,0,13.36-1.25,53.53,53.53,0,0,0,12.19,1.25,54.54,54.54,0,0,0,12-1.21,45.2,45.2,0,0,0,10.94,1.21c9,0,16.26-2.08,16.26-4.64C561,2598.87,556.94,2597.22,551.13,2596.52Z" transform="translate(-428 -2522)"/><circle class="cls-9" cx="76" cy="76" r="70"/></svg>
+<svg id="redPlanet" data-name="runaway greenhouse" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 152 152">
+
+
+
+<style>.cls-1,.cls-9{fill:none;}.cls-2{clip-path:url(#clip-path);}.cls-3{fill:#1381e5;}.cls-4{fill:#3ab730;}.cls-5{fill:#ff0b0b;opacity:0.78;}.cls-6{fill:#ccc4c4;}.cls-6,.cls-7{opacity:0.4;}.cls-7{fill:#a39d9d;}.cls-8{fill:#232222;}.cls-9{stroke:#fff8f8;stroke-miterlimit:10;stroke-width:12px;}#redPlanet{cursor: pointer;}
+
+
+       .bounceInDown {
+  -webkit-animation-name: bounceInDown;
+  animation-name: bounceInDown;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes bounceInDown {
+  0%, 60%, 75%, 90%, 100% {
+  -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+  
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(0, -3000px, 0);
+  transform: translate3d(0, -3000px, 0);
+  }
+  
+  60% {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 25px, 0);
+  transform: translate3d(0, 25px, 0);
+  }
+  
+  75% {
+  -webkit-transform: translate3d(0, -10px, 0);
+  transform: translate3d(0, -10px, 0);
+  }
+  
+  90% {
+  -webkit-transform: translate3d(0, 5px, 0);
+  transform: translate3d(0, 5px, 0);
+  }
+  
+  100% {
+  -webkit-transform: none;
+  transform: none;
+  }
+  }
+  
+  @keyframes bounceInDown {
+  0%, 60%, 75%, 90%, 100% {
+  -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+  
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(0, -3000px, 0);
+  transform: translate3d(0, -3000px, 0);
+  }
+  
+  60% {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 25px, 0);
+  transform: translate3d(0, 25px, 0);
+  }
+  
+  75% {
+  -webkit-transform: translate3d(0, -10px, 0);
+  transform: translate3d(0, -10px, 0);
+  }
+  
+  90% {
+  -webkit-transform: translate3d(0, 5px, 0);
+  transform: translate3d(0, 5px, 0);
+  }
+  
+  100% {
+  -webkit-transform: none;
+  transform: none;
+  }
+  }
+
+
+</style>
+
+<title>redPlanet</title><g class="cls-2"><circle class="cls-3" cx="74.48" cy="76" r="42.73"/><path class="cls-4" d="M484,2588.7a5,5,0,0,1,2.61-2.66c8.66-3.72,24-6.78,31,.69,5.36,5.72,3.36,19.3-7.74,19.28a1.49,1.49,0,0,0-1.49,1.73c1.26,7.35,3.85,16.17-1.45,21.76-7.95,8.41-13.56,3.17-16.21-5.3-1.91-6.11,4.26-12.82,2.51-19.23C490.88,2596.48,479.05,2600.6,484,2588.7Z" transform="translate(-428 -2522)"/><path class="cls-4" d="M524.77,2563.63c-2.92,12.95-19.11,1.48-22.29,11.15-3.39,10.29,17.95,11.94,23.13,11.14C552.82,2581.74,534.08,2554.23,524.77,2563.63Z" transform="translate(-428 -2522)"/><path class="cls-4" d="M469.69,2570.61c20.27,1.94-1.69,18.45-3.43,23.21-6.15,16.76,11.66,24.68,11.14,38.77-40.86,1.9-22.25-44-12.07-64.31Z" transform="translate(-428 -2522)"/></g><circle id="transition" class="cls-5" cx="74.48" cy="76" r="42.73"/><path class="cls-6" d="M542,2598c1.23,18.3-10.69,33.42-20.33,33.42s4.48-13.71,4.5-32.05c0-28.33-30.5-39.94-20.86-39.94S539.64,2563.63,542,2598Z" transform="translate(-428 -2522)"/><path class="cls-7" d="M465.61,2585.27c-6.11,17.29-1.05,35.07,8,38.27s.32-14.42,6.43-31.71,24.76-27.71,15.67-30.91S471.71,2568,465.61,2585.27Z" transform="translate(-428 -2522)"/><path class="cls-7" d="M492.44,2635.76c7,1.55,15.12-7.61,17.2-17s-6.23,3.23-13.26,1.67-10.14-16.71-12.21-7.3S485.41,2634.21,492.44,2635.76Z" transform="translate(-428 -2522)"/><path class="cls-7" d="M499.84,2571.38c9.5-2.1,19.62,6.62,21.69,16s-8.07-2.82-17.57-.72-14.75,17.73-16.83,8.32S490.34,2573.48,499.84,2571.38Z" transform="translate(-428 -2522)"/><path class="cls-7" d="M503.94,2591.59c7-1.55,14.26,3.7,15.56,9.59s-3.23,8.09-10.26,9.65-13.92,1.86-15.22-4S496.9,2593.15,503.94,2591.59Z" transform="translate(-428 -2522)"/><path class="cls-8" d="M551.13,2596.52a61.21,61.21,0,0,0-13.58-1.31,66.68,66.68,0,0,0-12.3,1c-1.13-.06-2.3-.09-3.49-.09a60.67,60.67,0,0,0-8.47.56,58.48,58.48,0,0,0-14.29-1.49c-7,0-13,.83-15.94,2-3.15-1.77-8.77-3-15.18-3-9.87,0-17.88,2.81-17.88,6.27s8,6.27,17.88,6.27c6.1,0,11.48-1.07,14.71-2.7a61.47,61.47,0,0,0,13.62,1.31,62.17,62.17,0,0,0,13.36-1.25,53.53,53.53,0,0,0,12.19,1.25,54.54,54.54,0,0,0,12-1.21,45.2,45.2,0,0,0,10.94,1.21c9,0,16.26-2.08,16.26-4.64C561,2598.87,556.94,2597.22,551.13,2596.52Z" transform="translate(-428 -2522)"/><circle class="cls-9" cx="76" cy="76" r="70"/>
+
+<defs>
+<clipPath id="clip-path" transform="translate(-428 -2522)"><circle class="cls-1" cx="502.48" cy="2598" r="42.73"/></clipPath>
+
+    <script>    
+
+        document.querySelector('#redPlanet').addEventListener('click', function() {
+        console.log('clicked on the SVG!', this.id);
+        this.classList.toggle('bounceInDown');
+        })
+
+    </script>
+
+
+
+
+</defs>
+
+
+
+</svg>

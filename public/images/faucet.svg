@@ -1,1 +1,90 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 152 152"><defs><style>.cls-1{isolation:isolate;}.cls-2{fill:#14d7f2;}.cls-3{fill:#0f9ba5;}.cls-4{fill:#8a8f91;}.cls-5,.cls-6,.cls-7{fill:#bcbbba;}.cls-5,.cls-7{mix-blend-mode:multiply;}.cls-7{opacity:0.6;}.cls-8{fill:#c0bebe;}.cls-9{fill:none;stroke:#fff8f8;stroke-miterlimit:10;stroke-width:12px;}</style></defs><title>faucet</title><g class="cls-1"><g id="faucet"><rect class="cls-2" x="44.18" y="90.47" width="12.82" height="20.53"/><rect class="cls-3" x="54" y="90.47" width="3" height="20.53"/><rect class="cls-4" x="74.34" y="43.38" width="6.08" height="20.47"/><path class="cls-5" d="M503.61,752.64l3.42-.41c2.36,0,4.27,1.54,4.27,3.44s-1.91,3.44-4.27,3.44l-2.86-.26" transform="translate(-413 -713)"/><path class="cls-5" d="M486.25,757.88c1.9-.31,2.64-.68,2.64-2.21" transform="translate(-413 -713)"/><path class="cls-6" d="M508.69,750.25a5.27,5.27,0,0,0-4.38,2.3l-8.14,1c-.93.13-1.72.21-2.38.32a4.1,4.1,0,0,0-7,0c-.64-.1-1.4-.17-2.27-.3l-8.15-1a5.27,5.27,0,0,0-4.38-2.3,5,5,0,1,0,0,10,5.3,5.3,0,0,0,3.48-1.3l9.16-.83c.88-.13,1.59-.23,2.17-.35a4.11,4.11,0,0,0,6.94,0c.6.13,1.33.24,2.27.37l9.16.83a5.32,5.32,0,0,0,3.48,1.3,5,5,0,1,0,0-10Z" transform="translate(-413 -713)"/><path class="cls-6" d="M470.89,799.71v7.46H456.18v-7.46c0-8.53,3.41-13.46,6.28-16.11,5.54-5.11,12.6-5.18,14.49-5.1h44.36v14.71H476.75l-.59,0a6.22,6.22,0,0,0-3.73,1.24C471.16,795.59,470.89,797.94,470.89,799.71Z" transform="translate(-413 -713)"/><rect class="cls-7" x="43.18" y="92.68" width="14.71" height="1.49"/><path class="cls-8" d="M503.49,778.5a10,10,0,0,0-3.74-3.91,6.3,6.3,0,0,0-5.78-3.5H487a6.34,6.34,0,0,0-5.69,3.31,10.12,10.12,0,0,0-4.1,4.1H477c-1.89-.08-8.95,0-14.49,5.1-2.87,2.65-6.28,7.58-6.28,16.11v7.46h14.71v-7.46c0-1.77.27-4.12,1.54-5.29a6.22,6.22,0,0,1,3.73-1.24l.44,0a10.09,10.09,0,0,0,9.53,6.83h8.48a10.07,10.07,0,0,0,9.52-6.82h17.18V778.5Z" transform="translate(-413 -713)"/><path class="cls-4" d="M521.17,794.3a1.5,1.5,0,0,0,1.5-1.49V779.06a1.5,1.5,0,0,0-1.5-1.5h0a1.5,1.5,0,0,0-1.49,1.5v13.75a1.49,1.49,0,0,0,1.49,1.49Z" transform="translate(-413 -713)"/><path class="cls-4" d="M455.38,808.07a1.5,1.5,0,0,0,1.49,1.5h13.75a1.5,1.5,0,0,0,1.5-1.5h0a1.5,1.5,0,0,0-1.5-1.49H456.87a1.49,1.49,0,0,0-1.49,1.49Z" transform="translate(-413 -713)"/><circle class="cls-9" cx="76" cy="76" r="70"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 152 152">
+<style>.cls-1{isolation:isolate;}.cls-2{fill:#14d7f2;}.cls-3{fill:#0f9ba5;}.cls-4{fill:#8a8f91;}.cls-5,.cls-6,.cls-7{fill:#bcbbba;}.cls-5,.cls-7{mix-blend-mode:multiply;}.cls-7{opacity:0.6;}.cls-8{fill:#c0bebe;}.cls-9{fill:none;stroke:#fff8f8;stroke-miterlimit:10;stroke-width:12px;}#faucet{cursor: pointer; overflow:visible;}
+
+       .bounceInUp {
+  -webkit-animation-name: bounceInUp;
+  animation-name: bounceInUp;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes bounceInUp {
+  0%, 60%, 75%, 90%, 100% {
+  -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(0, 3000px, 0);
+  transform: translate3d(0, 3000px, 0);
+  }
+  60% {
+  opacity: 1;
+  -webkit-transform: translate3d(0, -20px, 0);
+  transform: translate3d(0, -20px, 0);
+  }
+  75% {
+  -webkit-transform: translate3d(0, 10px, 0);
+  transform: translate3d(0, 10px, 0);
+  }
+  90% {
+  -webkit-transform: translate3d(0, -5px, 0);
+  transform: translate3d(0, -5px, 0);
+  }
+  100% {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  }
+  }
+  @keyframes bounceInUp {
+  0%, 60%, 75%, 90%, 100% {
+  -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(0, 3000px, 0);
+  transform: translate3d(0, 3000px, 0);
+  }
+  60% {
+  opacity: 1;
+  -webkit-transform: translate3d(0, -20px, 0);
+  transform: translate3d(0, -20px, 0);
+  }
+  75% {
+  -webkit-transform: translate3d(0, 10px, 0);
+  transform: translate3d(0, 10px, 0);
+  }
+  90% {
+  -webkit-transform: translate3d(0, -5px, 0);
+  transform: translate3d(0, -5px, 0);
+  }
+  100% {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  }
+  }
+
+</style>
+
+<title>faucet</title><g class="cls-1"><g id="faucet"><rect class="cls-2" x="44.18" y="90.47" width="12.82" height="20.53"/><rect class="cls-3" x="54" y="90.47" width="3" height="20.53"/><rect class="cls-4" x="74.34" y="43.38" width="6.08" height="20.47"/><path class="cls-5" d="M503.61,752.64l3.42-.41c2.36,0,4.27,1.54,4.27,3.44s-1.91,3.44-4.27,3.44l-2.86-.26" transform="translate(-413 -713)"/><path class="cls-5" d="M486.25,757.88c1.9-.31,2.64-.68,2.64-2.21" transform="translate(-413 -713)"/><path class="cls-6" d="M508.69,750.25a5.27,5.27,0,0,0-4.38,2.3l-8.14,1c-.93.13-1.72.21-2.38.32a4.1,4.1,0,0,0-7,0c-.64-.1-1.4-.17-2.27-.3l-8.15-1a5.27,5.27,0,0,0-4.38-2.3,5,5,0,1,0,0,10,5.3,5.3,0,0,0,3.48-1.3l9.16-.83c.88-.13,1.59-.23,2.17-.35a4.11,4.11,0,0,0,6.94,0c.6.13,1.33.24,2.27.37l9.16.83a5.32,5.32,0,0,0,3.48,1.3,5,5,0,1,0,0-10Z" transform="translate(-413 -713)"/><path class="cls-6" d="M470.89,799.71v7.46H456.18v-7.46c0-8.53,3.41-13.46,6.28-16.11,5.54-5.11,12.6-5.18,14.49-5.1h44.36v14.71H476.75l-.59,0a6.22,6.22,0,0,0-3.73,1.24C471.16,795.59,470.89,797.94,470.89,799.71Z" transform="translate(-413 -713)"/><rect class="cls-7" x="43.18" y="92.68" width="14.71" height="1.49"/><path class="cls-8" d="M503.49,778.5a10,10,0,0,0-3.74-3.91,6.3,6.3,0,0,0-5.78-3.5H487a6.34,6.34,0,0,0-5.69,3.31,10.12,10.12,0,0,0-4.1,4.1H477c-1.89-.08-8.95,0-14.49,5.1-2.87,2.65-6.28,7.58-6.28,16.11v7.46h14.71v-7.46c0-1.77.27-4.12,1.54-5.29a6.22,6.22,0,0,1,3.73-1.24l.44,0a10.09,10.09,0,0,0,9.53,6.83h8.48a10.07,10.07,0,0,0,9.52-6.82h17.18V778.5Z" transform="translate(-413 -713)"/><path class="cls-4" d="M521.17,794.3a1.5,1.5,0,0,0,1.5-1.49V779.06a1.5,1.5,0,0,0-1.5-1.5h0a1.5,1.5,0,0,0-1.49,1.5v13.75a1.49,1.49,0,0,0,1.49,1.49Z" transform="translate(-413 -713)"/><path class="cls-4" d="M455.38,808.07a1.5,1.5,0,0,0,1.49,1.5h13.75a1.5,1.5,0,0,0,1.5-1.5h0a1.5,1.5,0,0,0-1.5-1.49H456.87a1.49,1.49,0,0,0-1.49,1.49Z" transform="translate(-413 -713)"/><circle class="cls-9" cx="76" cy="76" r="70"/></g></g>
+
+
+
+
+
+<defs>
+
+<script>
+    document.querySelector('#faucet').addEventListener('click', function() {
+        console.log('clicked on the SVG!', this.id);
+        this.classList.toggle('bounceInUp');
+    })
+
+
+</script>
+
+
+
+</defs></svg>

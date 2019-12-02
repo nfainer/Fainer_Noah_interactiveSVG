@@ -4,6 +4,8 @@ var background = document.querySelector('#main');
 
 
 
+
+
 const waypoint = new Waypoint({
     // what element is this waypoint looking at?
     // the handler will fire when it scrolls into view

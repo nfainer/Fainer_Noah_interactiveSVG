@@ -90,7 +90,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#39b54a', end
 
 #leaf{
   width: 14%;
-  right: 51px;
+  margin-left: 957px;
   margin-top: 46px;
 }
 
@@ -109,7 +109,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#39b54a', end
 }
 
 #fish2{
-  right: 51px;
+  margin-left: 917px;
     margin-top: 70px;
     width: 17%;
     opacity: 25%;
@@ -118,7 +118,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#39b54a', end
 #waves{
   opacity: 37%;
     width: 25%;
-    right: 56px;
+    margin-left: 797px;
     margin-top: 29px;
     padding: 20px;
 }
@@ -190,6 +190,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#39b54a', end
 #water-bottles{
   padding-top: 100px;
   padding-left: 100px;
+  margin-bottom: 50px;
   width: 80%;
 }
 
@@ -215,16 +216,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#39b54a', end
 
 .extra-info2{
   position: absolute;
-  margin-top: -40px;
+  margin-top: -80px;
 }
 
 #deg4-water{
   /* left: 460px; */
-  right: 80px;
+  margin-left: 970px;
 }
 
 #deg2-water{
-  right: 440px;
+  margin-left: 610px;
 }
 
 #current-water{
@@ -232,72 +233,5 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#39b54a', end
 }
 
 
-.rubberBand {
-  -webkit-animation-name: rubberBand;
-  animation-name: rubberBand;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  }
-  @-webkit-keyframes rubberBand {
-  0% {
-  -webkit-transform: scale3d(1, 1, 1);
-  transform: scale3d(1, 1, 1);
-  }
-  30% {
-  -webkit-transform: scale3d(1.25, 0.75, 1);
-  transform: scale3d(1.25, 0.75, 1);
-  }
-  40% {
-  -webkit-transform: scale3d(0.75, 1.25, 1);
-  transform: scale3d(0.75, 1.25, 1);
-  }
-  50% {
-  -webkit-transform: scale3d(1.15, 0.85, 1);
-  transform: scale3d(1.15, 0.85, 1);
-  }
-  65% {
-  -webkit-transform: scale3d(.95, 1.05, 1);
-  transform: scale3d(.95, 1.05, 1);
-  }
-  75% {
-  -webkit-transform: scale3d(1.05, .95, 1);
-  transform: scale3d(1.05, .95, 1);
-  }
-  100% {
-  -webkit-transform: scale3d(1, 1, 1);
-  transform: scale3d(1, 1, 1);
-  }
-  }
-  @keyframes rubberBand {
-  0% {
-  -webkit-transform: scale3d(1, 1, 1);
-  transform: scale3d(1, 1, 1);
-  }
-  30% {
-  -webkit-transform: scale3d(1.25, 0.75, 1);
-  transform: scale3d(1.25, 0.75, 1);
-  }
-  40% {
-  -webkit-transform: scale3d(0.75, 1.25, 1);
-  transform: scale3d(0.75, 1.25, 1);
-  }
-  50% {
-  -webkit-transform: scale3d(1.15, 0.85, 1);
-  transform: scale3d(1.15, 0.85, 1);
-  }
-  65% {
-  -webkit-transform: scale3d(.95, 1.05, 1);
-  transform: scale3d(.95, 1.05, 1);
-  }
-  75% {
-  -webkit-transform: scale3d(1.05, .95, 1);
-  transform: scale3d(1.05, .95, 1);
-  }
-  100% {
-  -webkit-transform: scale3d(1, 1, 1);
-  transform: scale3d(1, 1, 1);
-  }
-  } 
+
 

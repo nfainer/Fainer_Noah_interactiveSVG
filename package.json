@@ -1,5 +1,5 @@
 {
-  "name": "fainer_noah_favouritethings",
+  "name": "fainer_noah_poster",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nfainer/Fainer_Noah_FavouriteThings.git"
+    "url": "git+https://github.com/nfainer/fainer_noah_poster.git"
   },
   "author": "Noah Fainer",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nfainer/Fainer_Noah_FavouriteThings/issues"
+    "url": "https://github.com/nfainer/fainer_noah_poster.git/issues"
   },
-  "homepage": "https://github.com/nfainer/Fainer_Noah_FavouriteThings#readme",
+  "homepage": "https://github.com/nfainer/fainer_noah_poster.git#readme",
   "dependencies": {
     "express": "^4.17.1",
     "hbs": "^4.0.6",
