@@ -1,0 +1,303 @@
+body{
+  width:1164px;
+  color: #fff;
+  font-family: 'Myriad Pro';
+}
+
+p{
+  font-size: 24px;
+}
+
+h1 {
+
+  font-size: 30px;
+}
+
+.title-bar{
+  background-color: black;
+  color: #fff;
+  margin: 0;
+  padding: 50px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.text-body{
+  padding: 50px;
+  text-align: center;
+}
+
+#first-section{
+  width: 50%;
+  text-align: center;
+  width: auto;
+   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f7931e+0,ed2124+100 */
+background: #f7931e; /* Old browsers */
+background: -moz-linear-gradient(top, #f7931e 0%, #ed2124 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #f7931e 0%,#ed2124 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #f7931e 0%,#ed2124 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7931e', endColorstr='#ed2124',GradientType=0 ); /* IE6-9 */
+}
+
+#header-text{
+  display: inline-block;
+  padding-top: 50px; 
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.header-graphic{
+  width: 50%;
+  padding: 20px;
+}
+
+.body-color1{
+  transition-duration: 1.5s;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0071bc+0,00a99d+100 */
+  background-color: #0071bc; /* Old browsers */
+  background-color: -moz-linear-gradient(top, #0071bc 0%, #00a99d 100%); /* FF3.6-15 */
+  background-color: -webkit-linear-gradient(top, #0071bc 0%,#00a99d 100%); /* Chrome10-25,Safari5.1-6 */
+  background-color: linear-gradient(to bottom, #0071bc 0%,#00a99d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0071bc', endColorstr='#00a99d',GradientType=0 ); /* IE6-9 */
+}
+
+.body-color2{
+  transition-duration: 1.5s;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f7931e+0,ed2124+100 */
+background-color: #f7931e; /* Old browsers */
+background-color: -moz-linear-gradient(top, #f7931e 0%, #ed2124 100%); /* FF3.6-15 */
+background-color: -webkit-linear-gradient(top, #f7931e 0%,#ed2124 100%); /* Chrome10-25,Safari5.1-6 */
+background-color: linear-gradient(to bottom, #f7931e 0%,#ed2124 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7931e', endColorstr='#ed2124',GradientType=0 );
+}
+
+.body-color3{
+  transition-duration: 1.5s;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#39b54a+0,22b573+100 */
+  background-color: #39b54a; /* Old browsers */
+  background-color: -moz-linear-gradient(top, #39b54a 0%, #22b573 100%); /* FF3.6-15 */
+  background-color: -webkit-linear-gradient(top, #39b54a 0%,#22b573 100%); /* Chrome10-25,Safari5.1-6 */
+  background-color: linear-gradient(to bottom, #39b54a 0%,#22b573 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#39b54a', endColorstr='#22b573',GradientType=0 ); /* IE6-9 */
+}
+
+#water-drop{
+  width: 7%;
+  opacity: 30%;
+  margin-top: 33px;
+  margin-left: 67px;
+}
+
+#leaf{
+  width: 14%;
+  right: 51px;
+  margin-top: 46px;
+}
+
+#plam-tree{
+  margin-top:20px;
+  margin-left: 25px;
+
+  width:12%;
+}
+
+#fish1{
+  width:10%;
+  margin-top: 60px;
+  margin-left: 25px;
+  opacity: 25%;
+}
+
+#fish2{
+  right: 51px;
+    margin-top: 70px;
+    width: 17%;
+    opacity: 25%;
+}
+
+#waves{
+  opacity: 37%;
+    width: 25%;
+    right: 56px;
+    margin-top: 29px;
+    padding: 20px;
+}
+
+.poster-details{
+  position: absolute;
+}
+
+
+
+.svg-graphic{
+  width: 15%;
+  display: block;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.svg-emblem{
+  margin: 20px;
+
+}
+
+#redearth{
+  margin-top: 70px;
+}
+
+
+.poster-info{
+  border: solid #fff 15px;
+  margin-left:20px;
+  margin-right:20px;
+  /* height: 50px; */
+}
+
+#main{
+
+  padding: 10px;
+}
+
+#waves-city{
+  padding: 20px;
+  width:40%;
+}
+
+
+.reference1{
+  position: absolute;
+  margin-left: 35px;
+  margin-top: 40px;
+}
+
+.reference2{
+  position: absolute;
+  margin-left: 35px;
+    margin-top: 90px;
+}
+
+.reference3{
+  position: absolute;
+  margin-left: 35px;
+  margin-top: 144px;
+}
+.reference4{
+  position: absolute;
+  margin-left: 35px;
+    margin-top: 200px;
+}
+
+#water-bottles{
+  padding-top: 100px;
+  padding-left: 100px;
+  width: 80%;
+}
+
+.extra-info1{
+  position: absolute;
+  left: 300px;
+}
+
+#current-level{
+  margin-left: 190px;
+  margin-top: -44px;
+}
+
+#deg2{
+  margin-left: 190px;
+  margin-top: -190px;
+}
+
+#deg4{
+    margin-left: 192px;
+    margin-top: -260px;
+}
+
+.extra-info2{
+  position: absolute;
+  margin-top: -40px;
+}
+
+#deg4-water{
+  /* left: 460px; */
+  right: 80px;
+}
+
+#deg2-water{
+  right: 440px;
+}
+
+#current-water{
+  margin-left: 230px;
+}
+
+
+.rubberBand {
+  -webkit-animation-name: rubberBand;
+  animation-name: rubberBand;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes rubberBand {
+  0% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  30% {
+  -webkit-transform: scale3d(1.25, 0.75, 1);
+  transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+  -webkit-transform: scale3d(0.75, 1.25, 1);
+  transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+  -webkit-transform: scale3d(1.15, 0.85, 1);
+  transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+  -webkit-transform: scale3d(.95, 1.05, 1);
+  transform: scale3d(.95, 1.05, 1);
+  }
+  75% {
+  -webkit-transform: scale3d(1.05, .95, 1);
+  transform: scale3d(1.05, .95, 1);
+  }
+  100% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  }
+  @keyframes rubberBand {
+  0% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  30% {
+  -webkit-transform: scale3d(1.25, 0.75, 1);
+  transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+  -webkit-transform: scale3d(0.75, 1.25, 1);
+  transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+  -webkit-transform: scale3d(1.15, 0.85, 1);
+  transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+  -webkit-transform: scale3d(.95, 1.05, 1);
+  transform: scale3d(.95, 1.05, 1);
+  }
+  75% {
+  -webkit-transform: scale3d(1.05, .95, 1);
+  transform: scale3d(1.05, .95, 1);
+  }
+  100% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  } 
+
